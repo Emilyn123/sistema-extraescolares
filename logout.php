@@ -19,7 +19,7 @@ if (ini_get("session.use_cookies")) {
 session_destroy();
 
 // 4. Redirección y salida inmediata
-header("Location: login_admin.php"); // Asegúrate de redirigir a donde debe ir
+header("Location: login.php"); // Asegúrate de redirigir a donde debe ir
 exit;
 ?>
 <?php
@@ -43,7 +43,7 @@ if (ini_get("session.use_cookies")) {
 session_destroy();
 
 // 4. Redirección y salida inmediata
-header("Location: login_tallerista.php"); // Asegúrate de redirigir a donde debe ir
+header("Location: login.php"); // Asegúrate de redirigir a donde debe ir
 exit;
 ?>
 <?php
@@ -67,6 +67,6 @@ if (ini_get("session.use_cookies")) {
 session_destroy();
 
 // 4. Redirección y salida inmediata
-header("Location: login_alumno.php"); // Asegúrate de redirigir a donde debe ir
+header("Location: login.php"); // Asegúrate de redirigir a donde debe ir
 exit;
 ?>
