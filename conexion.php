@@ -2,7 +2,7 @@
 		function conexion(){
 			$servidor="localhost";
 			$usuario="root";
-			$password="cris18navarro?";  //cambia contraseña
+			$password="supreme1.2";  //cambia contraseña
 			$bd="extraescolares";
 
 			$conexion=mysqli_connect($servidor,$usuario,$password,$bd);
